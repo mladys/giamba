@@ -1,0 +1,34 @@
+@import url('css/components/bg_video_loop.css');
+@import url('css/components/navbar.css');
+
+body {
+  display: block;
+  box-sizing: border-box;
+}
+
+header {
+  overflow: hidden;
+}
+
+.header_logo {
+  position: relative;
+  z-index: 10;
+  padding: 40px;
+}
+
+.header_logo img {
+  width: 200px;
+
+}
+
+.figure_pic {
+  position: relative;
+  z-index: 13;
+  margin: 0 auto;
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+.figure_pic img {
+  width: 400px;
+}
